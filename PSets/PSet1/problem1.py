@@ -5,7 +5,6 @@ Write a program that counts up the number of vowels contained in the string s. V
 
 Number of vowels: 5
 """
-
 s = 'azcbobobegghakl'  # Test String
 
 # Paste your code into this box
