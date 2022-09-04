@@ -15,4 +15,4 @@ for i in range(len(s) - len(bob) + 1):
     if s[i:i + len(bob)] == bob:
         count += 1
 
-print('Number of times bob occurs is: ' + str(count))
+print('Number of times bob occurs is:', count)

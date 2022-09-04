@@ -15,4 +15,4 @@ for char in s:
     if char in v:
         count += 1
 
-print('Number of vowels: ' + str(count))
+print('Number of vowels:', count)
