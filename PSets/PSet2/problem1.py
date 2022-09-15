@@ -31,7 +31,7 @@ monthlyPaymentRate = 0.04
 
 # Paste your code into this box
 remaining_bal = balance
-for i in range(12):
+for _ in range(12):
     remaining_bal -= remaining_bal * monthlyPaymentRate
     remaining_bal += remaining_bal * annualInterestRate / 12
 
